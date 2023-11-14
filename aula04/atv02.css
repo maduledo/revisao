@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+  
+div{
+    background-color: yellow;
+    font-family: sans-serif;
+    font-size: 40px;
+    
+}
+
+#cor{ 
+    opacity: 0.5;
+    width: 1fr;
+    height: 100px;
+    border:yellow 3px solid;
+    background: url("img01.png") no-repeat scroll right yellow;
+    background-size: 80px;
+
+
+}
+
+#cabecalho{
+    border:black  3px solid;
+    margin: 25px 50px;
+    width: 250px;
+    text-align: center;
+}
+
+
+#duda{
+    width: 1fr;
+    height: 90vh;
+
+}
+    
+ 
+
+
+
+ 
