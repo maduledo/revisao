@@ -1,0 +1,33 @@
+body {
+        background-color:#dad7cd;
+        height: 600px;
+        border: 6px solid black;
+    }
+
+.box {
+    background-color: #a3b18a;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "topo topo "
+                         "rod mR";
+    grid-template-rows: 100px 1fr ;
+    grid-template-columns: 100px 1fr;
+
+}
+
+
+.titulo {
+    background-color:#588157;
+    grid-area: topo;  
+}  
+
+.rodape {
+    background-color:#3b5a4b;
+    grid-area: rod;
+}
+
+.menuR {
+    background-color:#386641;
+    grid-area: mR;
+}
+

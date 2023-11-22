@@ -1,0 +1,40 @@
+body {
+    background-color:#dad7cd;
+    height: 600px;
+    border: 6px solid black;
+}
+
+.box {
+background-color: #a3b18a;
+height: 600px;
+display: grid;
+grid-template-areas: "topo topo topo "
+                     "mL cont mR";
+
+grid-template-rows: 150px 1fr;
+grid-template-columns: 100px 1fr 300PX;
+
+}
+
+
+.titulo {
+background-color:#588157;
+grid-area: topo;  
+}  
+
+.menuL {
+background-color:#3b5a4b;
+grid-area: mL;
+}
+
+.conteudo{
+    background-color:#6a994e;
+    grid-area: cont;
+}
+
+
+.menuR {
+background-color:#386641;
+grid-area: mR;
+}
+

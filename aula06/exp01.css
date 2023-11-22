@@ -1,0 +1,41 @@
+body {
+    background-color:#dad7cd;
+    height: 600px;
+    border: 6px solid black;
+}
+
+.box{
+    background-color: #a3b18a;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "topo topo topo"
+                         "mL cont  mR"
+                         "rod rod rod";
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 100px 1fr 100px;
+}
+
+.titulo{
+    background-color:#588157;
+    grid-area: topo;
+}
+
+.menuL{
+    background-color: #2c4431 ;
+    grid-area: mL;
+}
+
+.conteudo{
+    background-color:#6a994e;
+    grid-area: cont;
+}
+
+.rodape{
+    background-color:#3b5a4b;
+    grid-area: rod;
+}
+
+.menuR {
+    background-color:#386641;
+    grid-area: mR;
+}

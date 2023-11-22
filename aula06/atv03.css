@@ -1,0 +1,56 @@
+body {
+    background-color:#dad7cd;
+    height: 600px;
+    border: 6px solid black;
+}
+
+.box {
+background-color: #a3b18a;
+height: 600px;
+display: grid;
+grid-template-areas: "topo topo topo "
+                     "mL cont mR";
+
+grid-template-rows: 150px 1fr;
+grid-template-columns: 100px 1fr 300PX;
+
+}
+
+
+.titulo {
+background-color:#588157;
+grid-area: topo;  
+}  
+
+.texto p {
+    grid-area: topo ;
+     margin-left: 500px;
+     border: 2px solid black ;
+     margin-bottom: 50px;
+}
+
+.img > img{
+    background-color: #dad7cd;
+    height:100px ;
+    width:190px ; 
+    margin-top: 10px;  
+    margin-left: 50px;
+
+}
+
+.menuL {
+background-color:#3b5a4b;
+grid-area: mL;
+}
+
+.conteudo{
+    background-color:#6a994e;
+    grid-area: cont;
+}
+
+
+.menuR {
+background-color:#386641;
+grid-area: mR;
+}
+
