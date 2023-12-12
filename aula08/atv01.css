@@ -1,0 +1,172 @@
+
+
+.box{
+    background-color: #a3b18a;
+    display: grid;
+    grid-template-areas: "topo topo topo"
+                         "mL cont  mR"
+                         "rod rod rod";
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 80px 1fr 240px;
+}
+
+.titulo{
+    background-color:#588157;
+    grid-area: topo;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.menuL{
+    background-color: #a3b18a ;
+    grid-area: mL;
+    display: grid;
+    grid-template-areas: "mL1"
+                         "mL2"
+                         "mL3";
+    grid-template-rows: 160px 160px 160px;                     
+    
+}
+
+.menuL .mL1 {
+    background-color: rgb(165, 255, 173);
+    grid-area: mL1;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.menuL .mL1 p{
+    background-color: rgb(77, 139, 82) ;
+}
+
+.menuL .mL2 {
+    background-color: rgb(136, 179, 139);
+    grid-area: mL2;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.menuL .mL3 {
+    background-color: rgb(89, 119, 92);
+    grid-area: mL3;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.conteudo{
+    background-color:#6a994e;
+    grid-area: cont;
+    text-align: center;
+    padding-top: 220px;
+}
+
+.rodape{
+    background-color:#3b5a4b;
+    grid-area: rod;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.menuR {
+    background-color:#a3b18a;
+    grid-area: mR;
+    display: grid;
+    grid-template-areas: "mR1 mR2"
+                         "mR3 mR4"
+                         "mR5 mR6"
+                         "mR7 mR8" ;
+    grid-template-rows: 120px 120px 120px 120px;
+    grid-template-columns: 120px 120px ;
+}
+
+.menuR .mR1{
+    background-color: rgb(89, 119, 92);
+    grid-area: mR1;
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+.menuR .mR1 p{
+    background-color: rgb(122, 185, 129);
+    
+}
+
+.menuR .mR2{
+    background-color: rgb(136, 179, 139);
+    grid-area: mR2;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.menuR .mR3{
+    background-color: rgb(165, 255, 173);
+    grid-area: mR3;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.menuR .mR3 p{
+    background-color: rgb(101, 165, 107);
+}
+.menuR .mR4{
+    background-color: rgb(103, 150, 107);
+    grid-area: mR4;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menuR .mR4 p{
+    background-color: rgb(164, 231, 170);
+}
+.menuR .mR5{
+    background-color: rgb(75, 143, 81);
+    grid-area: mR5;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.menuR .mR5 p{
+    background-color: rgb(122, 204, 129);
+}
+
+
+.menuR .mR6{
+    background-color: rgb(97, 136, 100);
+    grid-area: mR6;
+}
+
+.menuR .mR6 p{
+    background-color: rgb(86, 121, 72);
+    text-align: center;
+}
+.menuR .mR6 #p2{
+    background-color: #6a994e;
+}
+
+
+
+.menuR .mR7{
+    background-color: rgb(151, 255, 159);
+    grid-area: mR7;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.menuR .mR7 p{
+    background-color: rgb(97, 167, 103);
+}
+
+
+.menuR .mR8{
+    background-color: rgb(107, 161, 111);
+    grid-area: mR8;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.menuR .mR8 p{
+    background-color: rgb(157, 241, 162);
+}
