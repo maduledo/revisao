@@ -1,0 +1,65 @@
+.box{
+    height: 650px;
+    background-color: #a3b18a;
+    display: grid;
+    grid-template-areas: "topo topo"
+                         "cont  lateral"
+                         "rod rod";
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: 1fr 150px;
+}
+
+.titulo{
+    background-color:rgb(95, 155, 95);
+    grid-area: topo;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.conteudo{
+    background-color:#6a994e;
+    grid-area: cont;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.C1, .C2, .C3 {
+    background-color:rgb(45, 156, 45) ;
+    width: 100%;
+    height:33.33% ;
+}
+
+.C2{
+    background-color: rgb(130, 235, 130) ;
+    
+}
+
+.rodape{
+    background-color:#3b5a4b;
+    grid-area: rod;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.R1, .R2, .R3 {
+    background-color: #6a994e;
+    width: 100%;
+    height: 150px;
+}
+
+.R2{
+    background-color: #a3b18a;
+}
+
+.lateral {
+    background-color:#8fc28a;
+    grid-area: lateral;
+    text-align: center;
+    padding-top: 160px;
+
+}
+
+/*@media(max-width)
+
